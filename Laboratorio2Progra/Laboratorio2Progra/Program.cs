@@ -13,7 +13,7 @@ while (continuar)
     Console.WriteLine("2 Para listar sus notas");
 
     var Menu = Convert.ToInt32(Console.ReadLine());
-    switch(Menu)
+    switch (Menu)
     {
         case 1:
             Console.WriteLine("Ingrese el nombre de la materia");
